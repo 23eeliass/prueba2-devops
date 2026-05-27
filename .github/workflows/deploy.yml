@@ -2,7 +2,7 @@ name: Pipeline CI/CD - Examen DevOps
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "deploy" ]
 
 env:
   REGISTRY: ghcr.io
